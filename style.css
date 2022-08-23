@@ -1,0 +1,49 @@
+*{
+	margin:0;
+	padding:0;	
+	font-family:Roboto,RobotoDraft,Helvetica,Arial,sans-serif;
+}
+.login{
+    	width: 32%;
+	margin: 0.5% auto;
+}
+form {
+    	margin: 9% 0;
+    	padding: 6px 0px;
+    	display: flex;
+    	flex-direction: column;	
+    	color: #004c4c;
+}
+input[type=text],input[type=password],textarea {
+        border: 0;
+    	border-bottom: 1px solid #ced4d6;
+    	padding: 2%;
+    	margin: 2%;
+}
+textarea {
+        border: 1px solid #ced4d6;
+    	padding: 2%;
+    	margin: 2%;
+}
+input[type=text]:hover,input[type=password]:hover {
+	border-bottom: 1px solid #66CDAA;
+}
+input[type=text]:focus,input[type=password]:focus,textarea:focus{
+	outline:none;
+}
+input[type=radio] {
+    accent-color: #004c4c;
+}
+.gender{
+	margin-bottom: 4%;
+}
+button{
+    	font-size: 16px;
+    	font-weight: 700;
+    	background-color: #66CDAA;
+    	color: white;
+    	padding: 16px 20px;
+    	margin: 8px 0;
+    	border: none;
+    	cursor: pointer;
+}
