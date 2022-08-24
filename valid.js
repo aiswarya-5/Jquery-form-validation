@@ -50,26 +50,11 @@ $(document).on("blur","#password",function(){
 	var passwordformat= /^(?=.*[A-Z])(?=.*[a-z])(?=.*\d)(?=.*[!@#$%^&*-]).{8,}$/;
 	if(pass=='')
 	{
-		alert("Please Enter your Mobile Number");				
+		alert("Please Enter your Password");				
 	}
 	else if(!pass.match(passwordformat))
 	{
 		alert("Invalid Phone Number!");
-	}
-});
-$(document).on("click","#submit",function(){
-	var username=$("#username").val();
-	var password=$("#password").val();
-	var email=$("#emails").val();	
-	var phone=$("#phoneno").val();						
-	if(username=="" || password=="" || email=="" ||phone=="")
-	{
-		alert("Blank space is not allowed");
-		return false;
-	}
-	else
-	{
-		return true;
 	}
 });
 $(document).on("blur","#address",function(){
