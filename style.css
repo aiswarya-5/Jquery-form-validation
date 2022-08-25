@@ -47,3 +47,9 @@ button{
     	border: none;
     	cursor: pointer;
 }
+#Error1,#Error5,#ErrorInvalid5,#Error2,#ErrorInvalid2,#Error3,#ErrorInvalid3,#Error4,#ErrorInvalid4{
+	display:none;
+	color:#FF0000;
+	margin: 3% auto;
+	font-size":14px;
+}

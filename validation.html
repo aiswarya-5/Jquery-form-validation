@@ -16,18 +16,31 @@
 			<form name="validateform" method="post" action="login.html">
 				<label>Enter Your Userame</label>
 				<input type="text" name="uname" id="username">
+				<p id="Error1">Please enter Your Username</p>
+
 				<label>Enter Your Password</label>
 				<input type="password" name="pass" id="password">
+				<p id="Error2">Please enter Your Password</p>
+				<p id="ErrorInvalid2">Invalid Password</p>
+
 				<label>Enter Email</label>
 				<input type="text" name="email" id="emails">
+				<p id="Error3">Please enter Your Email</p>
+				<p id="ErrorInvalid3">Invalid Email</p>
+
 				<label>Mobile No</label>
 				<input type="text" name="phone" id="phoneno"">
+				<p id="Error4">Please enter Your Mobile Number</p>
+				<p id="ErrorInvalid4">Invalid Mobile Number</p>
+
 				<div class="gender">
 					<input type="radio" value="male" name="gender" checked > Male   
 					<input type="radio" value="female" name="gender"> Female   
 				</div>  
 				<label>Address</label>
 				<textarea name="address" id="address"></textarea> 
+				<p id="Error5">Please enter Your Address</p>
+				<p id="ErrorInvalid5">Invalid Address</p>
 				<button type="submit" id="submit">SUMBIT</button>
 			</form>
 		</div>
