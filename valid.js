@@ -9,7 +9,7 @@ $(document).on("click","#submit",function(){
 		alert("Blank space is not allowed");
 		return false;
 	}
-	else if(count!=4)
+	else if(count!=5)
 	{
 		alert("Invalid Entries are not allowed");
 		return false;
