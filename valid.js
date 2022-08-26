@@ -96,7 +96,6 @@ $(document).on("blur","#phoneno",function(){
 		count++;
 	}
 });
-
 $(document).on("blur","#address",function(){
 	var addr=$("#address").val();
 	var addressformat=/^[a-zA-Z0-9,.'-]{3,}$/;
@@ -113,6 +112,5 @@ $(document).on("blur","#address",function(){
 	else{
 		$("#ErrorInvalid5").hide();
 		count++;
-	}
-		
+	}		
 });
